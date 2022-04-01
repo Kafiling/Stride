@@ -16,8 +16,17 @@ function App() {
   else{
     return (
       <>
-        <div className="App">
-        <SchedulerComponent/>
+        <div className="Wrapper">
+          <div className = "NavCon">
+
+          </div>
+          <div className = "Left">
+
+          </div>
+          <div className = "Right">
+            <SchedulerComponent/>
+          </div>
+        
         </div>
       </>
       );
